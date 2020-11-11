@@ -1,0 +1,167 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newyear {
+
+    color: red;
+
+    font-size: 200%;
+
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.today {
+  color:#27BDB3;
+  Margin:40px;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+text{
+font-family:Tahoma;
+}
+
+.zhufu {
+
+  margin-top: 20px;
+
+}
+
+.time {
+
+  margin-top: 20px;
+
+}
+
+.myself {
+
+  margin-top: 20px;
+
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.block {
+  width: 250px;
+  height: 400px;
+  background-color: #fff;
+}
+
+/**index.wxss**/
+.Poetry1 {
+
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 20px;
+
+  transition: all 3s ease-in-out;
+  transition-delay:1000;
+  opacity:0;
+
+  font-size: 22px;
+  color: red;
+  font-weight: lighter; 
+}
+
+.main{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.name {
+
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 20px;
+
+  color: red;
+  font-weight: bolder; 
+
+}
+
+.Poetry2 {
+  width: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+
+  transition: all 3s ease-in-out;
+  transition-delay:1000;
+  opacity:0;
+
+  font-size: 22px;
+  color: red;
+  font-weight: lighter; 
+
+}
+
+.Poetry3 {
+  width: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+
+  transition: all 3s ease-in-out;
+  transition-delay:1000;
+  opacity:0;
+
+  font-size: 22px;
+  color: red;
+  font-weight: lighter; 
+
+}
+
+.Poetry4 {
+  width: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+
+  transition: all 3s ease-in-out;
+  transition-delay:1000;
+  opacity:0;
+
+  font-size: 22px;
+  color: red;
+
+  font-weight: lighter; 
+}
+
+.active{
+  opacity:1;
+}
+
+.author {
+
+  margin-top: 0px;
+  margin-left: 20px;
+  width: 20px;
+
+  color: gray;
+
+}
+
+.present {
+
+  margin-top: 50px;
+  margin-left: 20px;
+
+}

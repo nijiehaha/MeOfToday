@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view class="container">
+  
+<van-dialog id="van-dialog" />
+
+<van-button plain hairline type="info" bind:click="onClickShow">古时候的祝福</van-button>
+
+<van-icon name="star-o" color="red"/>
+
+<van-button plain hairline type="primary" class="myself" bind:click="sendHeart">给自己的祝福</van-button>
+<van-icon name="point-gift-o" color="red" />
+
+<van-button type="info" bind:click="showNotify" class="zhufu">大大的祝福</van-button>
+
+<van-button type="primary" bind:click="showDialog" class="zhufu">小小的祝福</van-button>
+
+<van-button plain type="info" class='time' class="time">{{time}}</van-button>
+
+<van-action-sheet
+  show="{{ show }}"
+  actions="{{ actions }}"
+  bind:close="onClose"
+  bind:select="onSelect"
+/>
+  
+<van-toast id="van-toast" />
+
+<van-overlay show="{{ showMyPro }}" bind:click="onClickHide">
+  <view class="wrapper">  
+
+    <view class="block" catch:tap="noop">
+
+    <view class="main">
+
+      <view class="name">元日</view>
+
+      <view class="Poetry4" class="{{isshow4?'active Poetry4':'Poetry4'}}">总把新桃换旧符</view>
+      <view class="Poetry3" class="{{isshow3?'active Poetry3':'Poetry3'}}">千门万户曈曈日</view>
+      <view class="Poetry2" class="{{isshow2?'active Poetry2':'Poetry2'}}">春风送暖入屠苏</view>
+      <view class="Poetry1" class="{{isshow1?'active Poetry1':'Poetry1'}}">爆竹声中一岁除</view>
+    
+    </view>
+
+    <van-icon class="present" name="like" color="red"/>
+
+    <view class="author">王安石</view>
+
+  </view>
+
+
+  </view>
+</van-overlay>
+
+</view>

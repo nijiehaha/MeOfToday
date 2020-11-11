@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333A40",
+    "navigationBarTitleText": "今天的我呀",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "今天的心情",
+        "iconPath": "image/xinqingtod.png",
+        "selectedIconPath": "image/xinqing.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "昨天的心情",
+        "iconPath": "image/xinqingtod.png",
+        "selectedIconPath": "image/xinqing.png"
+      }
+    ],
+    "color": "#ffffff",
+    "selectedColor": "#27BDB3",
+    "backgroundColor": "#333A40"
+  },
+  "sitemapLocation": "sitemap.json"
+}
