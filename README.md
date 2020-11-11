@@ -1,5 +1,3 @@
-# MeOfToday
-
 # Description
 
 A simple wechat mini app demo
